@@ -6,4 +6,24 @@
 }
 
 
+/* general */
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+
+/* utilities */
+
+.d-flex {
+  display: flex;
+}
+
+
+/* header */
+
+header {
+  height: 75px;
+  background-color: #000000;
+
+}
 
