@@ -64,9 +64,9 @@ footer {
   right: 0;
 }
 
-footer icons {
-  text-align: center;
-}
+footer .icons {
+  cursor: pointer;
+} 
 
 footer span {
   display: block;
@@ -74,14 +74,18 @@ footer span {
   margin: 0 15px;
 }
 
-.fa-solid.fa-chevron-up {
+footer .icons .active:active {
+  color: #4AC902;
+}
+
+footer .fa-solid.fa-chevron-up {
   font-size: 0.6rem;
   margin: 0 10px; 
   position: relative;
   top: 15px;
 }
 
-.fa-solid {
+footer .fa-solid {
   padding-bottom: 10px;
   font-size: 1.2rem;
 }
@@ -124,4 +128,20 @@ footer span {
 .icons.breakout i {
   position: relative;
   left: 35px;
+}
+
+footer .right .end {
+  cursor: pointer;
+  display: inline-block;
+  height: 75px;
+  width: 110px;
+  line-height: 75px;
+  text-align: center;
+  margin-right: 0;
+}
+
+
+footer .right .end.active:active {
+  color: #EC100A;
+  background-color: #4A4A4A;
 }
