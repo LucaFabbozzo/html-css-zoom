@@ -130,6 +130,11 @@ footer .fa-solid {
   left: 35px;
 }
 
+.icons.more i {
+  position: relative;
+  left: 5px;
+}
+
 footer .right .end {
   cursor: pointer;
   display: inline-block;
