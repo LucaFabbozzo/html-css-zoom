@@ -75,10 +75,10 @@ main .user {
 
 main .user .badge {
   background-color: #687481a4;
-  width: 90px;
+  width: 83px;
   font-size: 0.8rem;
   position: absolute;
-  bottom: 3px;
+  bottom: 4px;
   left: 0;
 }
 
@@ -113,7 +113,6 @@ footer .icons .active:active {
 
 footer .fa-solid.fa-chevron-up {
   font-size: 0.6rem;
-  margin: 0 10px; 
   position: relative;
   top: 15px;
 }
