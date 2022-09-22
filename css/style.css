@@ -14,8 +14,8 @@ body {
 }
 
 .container {
-    width: 85%;
-    max-width: 1006px;
+    width: 90%;
+    max-width: 1262px;
     margin: 10px auto;
 }
 
@@ -75,7 +75,8 @@ main .user {
 
 main .user .badge {
   background-color: #687481a4;
-  width: 100px;
+  width: 90px;
+  font-size: 0.8rem;
   position: absolute;
   bottom: 3px;
   left: 0;
