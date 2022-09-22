@@ -57,13 +57,71 @@ footer {
   height: 75px;
   background-color: #222222;
   justify-content: space-between;
+  align-items: center;
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
 }
 
-footer span {
-  display: block;
+footer icons {
+  text-align: center;
 }
 
+footer span {
+  display: block;
+  font-size: 0.8rem;
+  margin: 0 15px;
+}
+
+.fa-solid.fa-chevron-up {
+  font-size: 0.6rem;
+  margin: 0 10px; 
+  position: relative;
+  top: 15px;
+}
+
+.fa-solid {
+  padding-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.icons i {
+  margin: 0 15px;
+}
+
+.icons.stop i {
+  position: relative;
+  left: 20px;
+}
+
+.icons.manage i {
+  position: relative;
+  left: 45px;
+}
+
+.icons.polling i {
+  position: relative;
+  left: 10px;
+}
+
+.icons.share i {
+  position: relative;
+  left: 20px;
+}
+
+
+.icons.chat i {
+  position: relative;
+  left: 5px;
+}
+
+.icons.record i {
+  position: relative;
+  left: 10px;
+}
+
+.icons.breakout i {
+  position: relative;
+  left: 35px;
+}
