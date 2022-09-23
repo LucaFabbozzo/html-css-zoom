@@ -16,7 +16,7 @@ body {
 .container {
     width: 90%;
     max-width: 1262px;
-    margin: 10px auto;
+    margin: 0px auto;
 }
 
 img {
@@ -61,7 +61,7 @@ header nav ul li {
 /* header */
 
 main {
-  height: calc(100vh - 65px);
+  height: calc(100vh - 140px);
   overflow: auto;
 }
 
